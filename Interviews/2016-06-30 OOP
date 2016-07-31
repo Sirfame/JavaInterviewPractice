@@ -1,0 +1,5 @@
+OOP is a method of programming that uses the concept of objects. An object is a piece of code that acts as a template for other similar 
+pieces of code. This is done by writing a class, which is the blueprint for the object. This class can have fields and methods, which 
+can be extended and overridden by extensions of this class/object. Furthermore, when this object is reused, it can add on more fields and
+more methods as needed. This is useful because programmers won't have to rewrite code every time they want to create an object, but
+rather they can just extend a previously established object, and customize it as desired.
