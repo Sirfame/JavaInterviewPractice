@@ -1,5 +1,9 @@
 import java.util.*;
 public class count_palindromes {
+	
+	public static void main(String[] args) { 
+	      System.out.println(count_palindromes("helloelle"));
+	   }
 
       public static int count_palindromes(String S) {
            if(S.equals("")) {
@@ -25,8 +29,5 @@ public class count_palindromes {
            return s.equals(sb.toString());
        }
 
-   public static void main(String[] args) { 
-      System.out.println(count_palindromes("helloelle"));
-
-   }
+   
 }

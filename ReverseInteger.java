@@ -1,3 +1,4 @@
+
 public class ReverseInteger {
 
    public static int reverseInteger(int number) {
