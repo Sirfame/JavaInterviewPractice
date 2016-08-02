@@ -1,0 +1,17 @@
+JDK is Java Development Kit, which is everything required to develop and run Java Applications.
+JRE is Java Runtime Environment, which is everything required to run already compiled Java applications. It does not contain
+the code library to develop Java Applications. 
+JVM is Java Virtual Machine, which runs on top of your OS to provide a recommended Java Environment for compiled Java code.
+JVM can only run bytecode, which is compiled Java Applications(.java to .class). JVM only provides the environment, it needs the Java code library
+to run applications. 
+
+JRE = JVM + required library to run app
+JDK = JRE + required library to develop app
+
+1. Java source code, by a Java developer
+2. Compiled code/byte code, compiled by javac (java compiler converts code to bytecode)
+3. Byte code is executed (by JVM) (Machine specific)
+
+Bytecode can be moved anywhere (windows/linux) and executed by JVM. JVM reads bytecode and generates machine specific code. In order to 
+generate machine specific code, JVM needs to be machine specific. So every type of computer (windows/linux/mac) has a specific JVM. JVM takes
+care of portability.

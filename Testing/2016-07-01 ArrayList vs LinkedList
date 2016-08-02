@@ -1,0 +1,11 @@
+ArrayList and LinkedList are two commonly used data structures in computer science. Both of these data structures implements the List interface and their
+results and methods are very similar.
+There are several differences between these two data structures. If we are dealing with sorted ArrayLists and LinkedLists, an ArrayList has an
+insertion and deletion run time of O(n), because items have to be shifted to make room or to close the gap. LinkedLists on the other hand have a
+insertion and deletion run time of O(1). Searching an ArrayList however has a run time of O(1), because an ArrayList is index based. Searching through
+a LinkedList however has a run time of O(n) as the list would need to be traversed. This means that when it comes to implementation, 
+it would be more efficient to use an ArrayList when the
+data is stagnant and used for searching, whereas if the data is continuously changing, a LinkedList will be the better fit.
+
+Memory overhead: ArrayLists contains indexes and element data, whereas LinkedLists contains one or two pointers and element data, depending on what kind
+of LinkedList is in question. Hence, memory consumption for LinkedLists is high.
