@@ -351,7 +351,7 @@ public class DealingNumbers {
 		System.out.println("GCD of " + firstNumber + " and " + secondNumber + ": " + GCD(firstNumber, secondNumber));
 		System.out.println("GCD2 of " + firstNumber + " and " + secondNumber + ": " + GCD2(firstNumber, secondNumber));
 		System.out.println("LCM of " + firstNumber + " and " + secondNumber + ": " + LCM(firstNumber, secondNumber));
-		
+		System.out.println("Test");
 		//"GCD of " + firstNumber + " and " + secondNumber + ": " + 
 	}
 }

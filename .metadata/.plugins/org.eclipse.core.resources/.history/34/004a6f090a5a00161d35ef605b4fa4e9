@@ -217,6 +217,6 @@ public class DealingStrings {
 
 	  reverseWords("today is hot");
 	  reverseWordByWord("today is hot");
-	  System.out.println("what");
+
  }
 }
