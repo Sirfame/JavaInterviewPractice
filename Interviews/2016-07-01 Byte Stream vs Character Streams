@@ -1,0 +1,21 @@
+Byte stream and character streams are both streams that sequentially accesses a file.
+A byte stream access the file byte by byte, while a character stream access the file character
+by character. There times when it is more appropriate to use one over the other. For example,
+a text file made of unicode characters should be accessed with a character stream, since 
+each character is made of two bytes. If it was accessed with a byte stream, a convertion
+would be required. A character stream needs to be givin the file's encoding to work properly.
+Although MS word contains text, it is not a text file, and cannot be accessed with a character stream.
+
+A stream represents a sequence of objects, usually bytes, to be accessed in sequential order.
+Typical operations:
+
+1. read one byte, next time you read, the next one is read, etc.
+2. read several bytes from the stream into an array
+3. seek, moving the cursor so the next time you read, it will be at that cursor position
+4. write one byte
+5. write several bytes from an array into the stream
+6. skip bytes from the stream, which is like seek but can only go forward
+7. push bytes back into the stream, next time you read will be the bytes that are pushed back.
+8. peek, look at bytes without reading them.
+
+
