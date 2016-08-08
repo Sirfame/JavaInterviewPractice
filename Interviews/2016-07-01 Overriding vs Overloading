@@ -1,0 +1,8 @@
+Overriding and overloading both deal with an object's methods. Overloading happens at compile time, while
+overriding happens at run time.
+
+Overloading is when there are two methods with the same name but with different parameters.
+Method overloading is also known as static polymorphism. Overloading can be done in the same class, but overriding
+requires a parent and child class. 
+Overriding is when a class implements a method with the same name and same parameters as its parent's
+class but contains different logic than the parent class.
