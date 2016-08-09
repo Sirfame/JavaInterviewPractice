@@ -276,7 +276,7 @@ public class Matrix {
     printDiagonalR2L(array);
     print(array);
     printDiagonalL2R(array);
-
+    System.out.println("test");
   }
 }
 
