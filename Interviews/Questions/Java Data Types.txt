@@ -1,10 +1,10 @@
 There are eight primitive types:
 
-byte
-short
-int
-long
-float
-char
-double
-boolean
+byte - 8 bit signed two's complement integer (min -128, max 127, inclusive)
+short - 16 bit signed two's complement integer (min -32,768, max 32,767, inclusive)
+int - 32 bit signed two's complement integer (min -2^31, max 2^31 - 1)
+long - 64 bit signed two's complement integer (min -2^63, max 2^63 - 1)
+float - single precision 32 bit IEEE 754 floating point.
+double - a double precision 64 bit IEEE 754 floating point.
+char - single 16-bit unicode character (min '\u0000' (or 0), max '\uffff' (or 65,535))
+boolean - true or false

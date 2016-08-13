@@ -5,9 +5,14 @@ public class minSubArraySum {
 	public static void main(String[] args) {
       int[] arr = {6, 3, 5, 8, 4, 2, 1};
       int[] arr2 = {11, 13, 15, 16};
-		System.out.println(minSubArraySum(arr, 100));
-      System.out.println(consecSequence(arr));
-      System.out.println(consecSequence(arr2));
+      int[] arr3 = {1, 3, 5, 6};
+      //System.out.println(minSubArraySum(arr, 100));
+      //System.out.println(consecSequence(arr));
+      //System.out.println(consecSequence(arr2));
+      System.out.println(indexPosition(arr3, 5));
+      System.out.println(indexPosition(arr3, 2));
+      System.out.println(indexPosition(arr3, 7));
+      System.out.println(indexPosition(arr3, 0));
 	}
    
    public static int minSubArraySum(int[] arr, int s) {
@@ -39,6 +44,15 @@ public class minSubArraySum {
          }
       }
       return consec;
+   }
+   
+   public static int indexPosition(int[] arr, int num) {
+	   for(int i = 0; i < arr.length; i++) {
+		   if(arr[i] >= num) {
+			   return i;
+		   }
+	   }
+	   return arr.length;
    }
    
 }
