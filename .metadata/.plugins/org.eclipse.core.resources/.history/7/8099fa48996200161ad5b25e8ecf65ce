@@ -1,0 +1,18 @@
+
+public class searchIndexPosition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int indexPosition(int[] arr, int num) {
+		   for(int i = 0; i < arr.length; i++) {
+			   if(arr[i] >= num) {
+				   return i;
+			   }
+		   }
+		   return arr.length;
+	   }
+
+}
