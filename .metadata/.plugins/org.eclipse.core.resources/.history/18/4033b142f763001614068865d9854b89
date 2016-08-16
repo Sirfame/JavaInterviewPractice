@@ -1,0 +1,35 @@
+
+public class searchIndexPosition {
+
+	public static void main(String[] args) {
+		int[] arr = {6, 3, 5, 8, 4, 2, 1};
+		int[] arr2 = {11, 13, 15, 16};
+		int[] arr3 = {1, 3, 5, 6};
+		System.out.println(indexPosition(arr3, 1));
+	    System.out.println(indexPosition(arr3, 3));
+	    System.out.println(indexPosition(arr3, 5));
+	    System.out.println(indexPosition(arr3, 6));
+	}
+	
+	public static int indexPosition(int[] arr, int num) {
+		int low = 0;
+		int high = arr.length - 1;
+		int middle = (low + high) / 2;
+		while(high > low) {
+			if(arr[middle] == num) {
+				return middle;
+			} else if(arr[middle] > num) {
+				high = middle;
+				middle = (low + high) / 2;
+			} else {
+				low = middle;
+				middle = (low + high) /2;
+			}
+		}
+		return middle;
+
+	   
+	}
+		
+
+}
