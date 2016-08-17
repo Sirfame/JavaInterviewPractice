@@ -1,0 +1,22 @@
+
+public class longestSubstring {
+
+	public static void main(String[] args) {
+		System.out.println(longestStreak("dfklsa jfamdsklfm"));
+
+	}
+	
+	public static int longestStreak(String str) {
+		int longestStreak = 1;
+		int currentStreak = 1;
+		for(int i = 1; i < str.length(); i++) {
+			if(str.charAt(i - 1) != str.charAt(i)) {
+				currentStreak += 1;
+			} else {
+				
+			}
+		}
+		return 0;
+	}
+
+}

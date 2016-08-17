@@ -1,0 +1,13 @@
+
+public class longestSubstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int longestSubstring() {
+		return 0;
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class longestSubstring {
+
+	public static void main(String[] args) {
+		System.out.println(longestStreak("dfklsadjfamdsklfm"));
+
+	}
+	
+	public static int longestStreak(String str) {
+		
+		return 0;
+	}
+
+}
